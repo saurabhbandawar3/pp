@@ -1,0 +1,5 @@
+@for (product of products; track product.id) {
+    <ul>
+        <li><span>{{ product.name }}</span> - {{ product.price | currency }}</li>
+    </ul>
+}
